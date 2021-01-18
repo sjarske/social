@@ -18,7 +18,7 @@
 		<repository>
 			<id>internal.repo</id>
 			<name>Internal Repository</name>
-			<url>file:</url>
+			<url>file:///C:\Users\sjors\IdeaProjects</url>
 			<layout>default</layout>
 		</repository>
 	</distributionManagement>
