@@ -14,6 +14,16 @@
 	<name>socialfeedapi</name>
 	<description>Demo project for Spring Boot</description>
 
+	<distributionManagement>
+		<repository>
+			<uniqueVersion>false</uniqueVersion>
+			<id>corp1</id>
+			<name>Corporate Repository</name>
+			<url>scp://repo/maven2</url>
+			<layout>default</layout>
+		</repository>
+	</distributionManagement>
+
 	<properties>
 		<java.version>11</java.version>
 	</properties>
@@ -23,6 +33,9 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
+
+
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
